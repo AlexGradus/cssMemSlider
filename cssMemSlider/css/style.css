@@ -15,6 +15,9 @@ body{
     overflow: hidden;
 }
 
+/* Slider_Picture,Slider_Parametres и Slider_ParametresInside отображают расположение и размер картинки  */
+
+
 .Slider__Picture{
     width:400%;
     margin: 0 auto;
@@ -42,6 +45,7 @@ body{
     height: 10vh;
     margin-top: 20px;
 }
+/* Slider__String_General_Wrapper,Slider__String_General,Slider__String отражают размеры и положение  строки  */
 .Slider__String_General_Wrapper{
     width: 50%;
 }
@@ -74,9 +78,11 @@ body{
     cursor: pointer;
     padding: 8px;
 }
+
+/* Slider__Controls__Item  размер контролов  */
 .Slider__Controls__Item{
-    width: 8px;
-    height: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
     
     border:1px solid blue;
     border-radius: 50%;
