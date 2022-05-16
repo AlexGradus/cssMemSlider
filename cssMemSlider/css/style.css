@@ -1,0 +1,172 @@
+body{
+   
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Wrapper{
+   background-color: black;
+   width: 100%;
+   
+}
+.Wrapper_Parametres{
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.Slider__Picture{
+    width:400%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+    
+}
+
+.Slider_Parametres{
+    width: 25%;
+    max-height: 80vh;
+    transition: all .7s ease;
+   
+}
+.Slider_ParametresInside{
+    width: 100%;
+    height: 100%;
+}
+.Lower_Wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-top: 20px;
+}
+.Slider__String_General_Wrapper{
+    width: 50%;
+}
+.Slider__String_General{
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    overflow: hidden;
+}
+.Slider__String{
+    color: white;
+    font-size: 14px;
+    width:100%;
+    min-width: 100%;
+    transition: all .7s ease;
+   
+}
+.Slider__String1{
+    width:100%;
+}
+
+.Slider__Controls{
+    display: flex;
+    justify-content: baseline;
+}
+.Controls__Item_Out{
+    width: 15px;
+    height: 15px;
+    
+    cursor: pointer;
+    padding: 8px;
+}
+.Slider__Controls__Item{
+    width: 8px;
+    height: 8px;
+    
+    border:1px solid blue;
+    border-radius: 50%;
+    color: transparent;
+    background-color: blue;
+    
+  
+}
+
+.Controls__Item_Out:hover .Slider__Controls__Item{
+    width: 8px;
+    height: 8px;
+    border:1px solid white;
+    border-radius: 100%;
+    color: transparent;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Controls__Item_Out:active .Slider__Controls__Item{
+    width: 8px;
+    height: 8px;
+    border:1px solid white;
+    border-radius: 100%;
+    color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+   
+
+    
+  
+
+
+@media screen and (max-width:390px){
+
+    .Lower_Wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 10vh;
+        margin-top: 20px;
+    }
+    .Slider__Controls{
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+}
+
+
+#Slide1:checked ~ .Lower_Wrapper .Slider__String_General .SD{
+    margin-left: 0;
+}
+
+#Slide2:checked ~ .Lower_Wrapper .Slider__String_General .SD{
+    margin-left: -100%;
+}
+
+#Slide3:checked ~ .Lower_Wrapper .Slider__String_General .SD{
+    margin-left: -200%;
+}
+
+#Slide4:checked ~ .Lower_Wrapper .Slider__String_General .SD{
+    margin-left: -300%;
+}
+
+ input[name="fix"] {
+	display: none;
+}
+
+#Slide1:checked ~ .Slider__Picture .SP{
+    margin-left: 0;
+}
+
+#Slide2:checked ~ .Slider__Picture .SP{
+    margin-left: -25%;
+}
+
+#Slide3:checked ~ .Slider__Picture .SP{
+    margin-left: -50%;
+}
+
+#Slide4:checked ~ .Slider__Picture .SP{
+    margin-left: -75%;
+}
+
+#Slide1:checked ~ .Slider__Controls .Controls__Item_Out .Slider__Controls__Item{
+    background-color: transparent;
+}
+
+ 
