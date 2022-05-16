@@ -99,7 +99,7 @@ body{
 .Controls__Item_Out:active .Slider__Controls__Item{
     width: 8px;
     height: 8px;
-    border:1px solid white;
+    border:1px solid red;
     border-radius: 100%;
     color: transparent;
     background-color: transparent;
@@ -165,8 +165,16 @@ body{
     margin-left: -75%;
 }
 
-#Slide1:checked ~ .Slider__Controls .Controls__Item_Out .Slider__Controls__Item{
+#Slide4:checked ~.Lower_Wrapper .Slider__Controls .Controls__Item_Out .ActiveButton4{
     background-color: transparent;
 }
+
+#Slide2:checked ~.Lower_Wrapper .Slider__Controls .Controls__Item_Out .ActiveButton2{
+    background-color: transparent;}
+
+    #Slide3:checked ~.Lower_Wrapper .Slider__Controls .Controls__Item_Out .ActiveButton3{
+        background-color: transparent;}
+        #Slide1:checked ~.Lower_Wrapper .Slider__Controls .Controls__Item_Out .ActiveButton1{
+            background-color: transparent;}
 
  
