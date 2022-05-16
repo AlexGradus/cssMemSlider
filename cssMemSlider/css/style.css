@@ -119,7 +119,7 @@ body{
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
-        height: 10vh;
+        height: 20vh;
         margin-top: 20px;
     }
     .Slider__Controls{
