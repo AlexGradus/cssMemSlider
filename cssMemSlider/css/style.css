@@ -10,8 +10,8 @@ body{
    
 }
 .Wrapper_Parametres{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     overflow: hidden;
 }
 
@@ -21,7 +21,7 @@ body{
 .Slider__Picture{
     width:400%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -43,7 +43,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 /* Slider__String_General_Wrapper,Slider__String_General,Slider__String отражают размеры и положение  строки  */
 .Slider__String_General_Wrapper{
@@ -57,7 +57,7 @@ body{
 }
 .Slider__String{
     color: white;
-    font-size: 14px;
+    font-size: 0.9rem;
     width:100%;
     min-width: 100%;
     transition: all .7s ease;
@@ -72,11 +72,11 @@ body{
     justify-content: baseline;
 }
 .Controls__Item_Out{
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     
     cursor: pointer;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 /* Slider__Controls__Item  размер контролов  */
@@ -84,7 +84,7 @@ body{
     width: 0.5rem;
     height: 0.5rem;
     
-    border:1px solid blue;
+    border:0.1rem solid blue;
     border-radius: 50%;
     color: transparent;
     background-color: blue;
@@ -93,9 +93,9 @@ body{
 }
 
 .Controls__Item_Out:hover .Slider__Controls__Item{
-    width: 8px;
-    height: 8px;
-    border:1px solid white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border:0.1rem solid white;
     border-radius: 100%;
     color: transparent;
     background-color: white;
@@ -103,9 +103,9 @@ body{
 }
 
 .Controls__Item_Out:active .Slider__Controls__Item{
-    width: 8px;
-    height: 8px;
-    border:1px solid red;
+    width: 0.5rem;
+    height: 0.5rem;
+    border:0.1rem solid red;
     border-radius: 100%;
     color: transparent;
     background-color: transparent;
