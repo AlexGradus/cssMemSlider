@@ -126,11 +126,11 @@ body{
         flex-direction: column-reverse;
         justify-content: flex-end;
         height: 20vh;
-        margin-top: 20px;
+        margin-top: 1rem;
     }
     .Slider__Controls{
         margin: 0 auto;
-        padding-bottom: 15px;
+        padding-bottom: 1rem;
     }
 }
 
